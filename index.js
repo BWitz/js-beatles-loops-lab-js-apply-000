@@ -4,10 +4,8 @@ var instruments = ["plays the Rhythm Guitar", "plays the Drums", "plays the Lead
 
 function theBeatlesPlay(musicians, instruments) {
   var theBeatlesPlayThese = [];
-  for (let i = 0; i < musicians.length; i++) {
-    (let p = 0; p < instruments.length; p++) {
+  for (let i = 0; i < ; i++) {
       theBeatlesPlayThese.push(musicians[i] + instruments[p]);
-    }
   }
 }
 
