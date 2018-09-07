@@ -27,4 +27,12 @@ function johnLennonFacts(facts) {
   return newJLF;
 }
 
-function iLoveTheBeatles()
+function iLoveTheBeatles(number) {
+  iLTB = [];
+  do {
+    iLTB.push('I love the Beatles!')
+    number++;
+  }
+  while(number < 15)
+  return iLTB;
+}
