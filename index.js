@@ -21,7 +21,7 @@ function johnLennonFacts(facts) {
   var newJLF = [];
   let i = 0;
   while(i < facts.length) {
-    newJLF.push(`${johnLennonFacts[i]}!!!`)
+    newJLF.push(`${facts[i]}!!!`)
     i++;
   }
   return newJLF;
