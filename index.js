@@ -27,6 +27,8 @@ function johnLennonFacts(facts) {
   return newJLF;
 }
 
+johnLennonFacts(facts);
+
 
 
 
