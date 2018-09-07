@@ -6,7 +6,8 @@ function theBeatlesPlay(musicians, instruments) {
   var theBeatlesPlayThese = [];
   for (let i = 0; i < 4; i++) {
       theBeatlesPlayThese.push(`${musicians} plays ${instruments}`);
-}
+  }
+  return theBeatlesPlayThese;
 }
 
 
